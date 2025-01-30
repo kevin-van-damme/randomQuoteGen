@@ -80,6 +80,11 @@ body {
           padding: 0.2rem;
           background-color: var(--card);
         }
+        &:hover {
+          cursor: pointer;
+          transition: all 200ms;
+          color: #94a2a6;
+        }
       }
       .button {
         width: 6rem;
